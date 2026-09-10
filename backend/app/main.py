@@ -45,6 +45,12 @@ def create_item(payload: ItemCreate) -> Item:
     _next_id += 1
     return item
 
+@app.get("/api/items/{item_id}")
+def get_item(item_id: int) -> Item:
+    for item in _items:
+        if item.id == item_id:
+            return item
+    raise HTTPException(status_code=404, detail="Item not found")
 
 @app.delete("/api/items/{item_id}", status_code=204, response_model=None)
 def delete_item(item_id: int) -> None:
