@@ -31,3 +31,10 @@ med texten — `.gitignore` tillåter bilder.*
 - Filnamn: `mN-<kort-namn>.<valfri ändelse>` (samma nummer som
   milstolpens tagg) — `.md` här är bara ett exempel, `.txt`, Word eller
   vad ni är bekväma med går lika bra.
+
+
+![Ruleset](image.png)
+
+![New branch](image-1.png)
+
+![pull request](image-2.png)
