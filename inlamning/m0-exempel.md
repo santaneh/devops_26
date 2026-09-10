@@ -38,3 +38,16 @@ med texten — `.gitignore` tillåter bilder.*
 ![New branch](image-1.png)
 
 ![pull request](image-2.png)
+
+## Konfliktövningen
+Jag ändrade h1 Till BOB. 
+![bob change](image-3.png)
+
+Efter att vi ändrade på samma line och gjorde det på samma branch orsakade det att vi behövde "resolve conflict"
+![pr request](image-4.png)
+
+Jag tog bilden efter jag valde "accept incoming changes" h1 blev alltså BOB och <<<<< raderades. 
+![conflict resolving](image-5.png)
+
+conflict solved.
+![conflict solved](image-6.png)
