@@ -15,3 +15,7 @@ EXPOSE 8000 gör inte porten nåbar. Utanför containern.
 ![Webbläsare](image-10.png)
 
 ![Docker compose up](image-11.png)
+
+![docker login](image-12s.png)
+
+![ghcr push](image-13s.png)
