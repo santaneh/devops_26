@@ -31,26 +31,3 @@ med texten — `.gitignore` tillåter bilder.*
 - Filnamn: `mN-<kort-namn>.<valfri ändelse>` (samma nummer som
   milstolpens tagg) — `.md` här är bara ett exempel, `.txt`, Word eller
   vad ni är bekväma med går lika bra.
-
-## Ruleset 
-Repo owner gjorde en ruleset till repot så vi kan inte skicka commit tills main rakt utan code review av en annan.
-![Ruleset](image.png)
-## Ny branch
-Vi gjorde en ny dev branch för varje task så att vi kan jobba individuelt.
-![New branch](image-1.png)
-## Commit och Merge
-Paret merga sina ändringar från branchen till main och efter det då kollade andra paret och skicka en review och approval 
-![pull request](image-2.png)
-
-## Konfliktövningen
-Jag ändrade h1 Till BOB. 
-![bob change](image-3.png)
-
-Efter att vi ändrade på samma line och gjorde det på samma branch orsakade det att vi behövde "resolve conflict"
-![pr request](image-4.png)
-
-Jag tog bilden efter jag valde "accept incoming changes" h1 blev alltså BOB och <<<<< raderades. 
-![conflict resolving](image-5.png)
-
-conflict solved.
-![conflict solved](image-6.png)
