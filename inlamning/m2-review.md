@@ -41,5 +41,3 @@ BOB och konfliktmarkörerna (`<<<<<<<`) togs bort.
 Pull requesten godkändes och mergades efter att konflikten var löst.
 
 ![conflict solved](./imgs/image-6.png)
-
-![alt text](image.png)
