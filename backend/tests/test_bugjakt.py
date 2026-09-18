@@ -17,3 +17,14 @@ client = TestClient(app)
 
 
 # Skriv ert test här:
+
+def test_charAmountAfterDeletion() -> None:
+    first = client.post("/api/items", json={"text": "milk"}).json()
+    client.post("/api/items", json={"text": "bread"})
+
+    response = client.delete(f"/api/items/{first['id']}")
+    assert response.status_code == 204
+
+    response = client.get("/api/items/stats")
+    assert response.status_code == 200
+    assert response.json() == {"count": 1, "total_characters": 5}
